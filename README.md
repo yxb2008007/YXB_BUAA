@@ -12,6 +12,7 @@ Introduction
 * TRGA_Ochiai -- The folder TRGA_Barinel gives the source code of TRGA with Ochiai technique.
 * TRGA_Dstar -- The folder TRGA_Barinel gives the source code of TRGA with Dstar technique.
 * TRGA_Clustering -- The folder TRGA_Barinel gives the source code of TRGA with two clustering techniques (Mseer and FLC).
+
 Deployment
 ===
 * Step1 -- Deploy the python environment (python 2.7) and download all sources of this project
