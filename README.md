@@ -19,3 +19,6 @@ Deployment
 * Step2 -- Add the matrix and spectra path into the main function of corresponding technique. Taking Ochiai as an example, if you want to run the TRGA with Ochiai technique, you need to open the main function (TRGA_Ochiai.py) and add the matrix and spectra path of specific Mockito program to parameter matrix_path and spectrum_path separately. After that, the exact position of faulty statements in spectra file should be assigned to parameter faulty_statements_list.
 * Step3 -- Rewrite the main function (TRGA_Ochiai.py) to import the output to your desired location and run TRGA_Ochiai.py.
 
+Notice
+===
+This project is only used for academic research.
