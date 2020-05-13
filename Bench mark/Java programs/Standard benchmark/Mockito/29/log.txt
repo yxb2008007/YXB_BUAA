@@ -1,0 +1,220 @@
+[DEBUG] PID: Mockito
+[DEBUG] VID: 29
+[DEBUG] DATA_DIR: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Mockito/29
+[DEBUG] TOOL: developer
+[DEBUG] TESTS_DIR: 
+[DEBUG] TMP_DIR: /tmp/yxb/gzoltar_93991_Mockito-29
+[DEBUG] DIR_PROJECT: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Mockito
+[DEBUG] DIR_LOADED_CLASSES: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Mockito/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Mockito/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Mockito/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+[INFO] Checking out Mockito-29 to /tmp/yxb/gzoltar_93991_Mockito-29
+Check out 918f0a5a to /tmp/yxb/gzoltar_93991_Mockito-29.................... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 918f0a5a:df41fbe0..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Mockito-29b..................................... OK
+[DEBUG] LOADED_CLASSES: org.mockito.configuration.DefaultMockitoConfiguration:org.mockito.exceptions.verification.WantedButNotInvoked:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs:org.mockito.internal.invocation.MatchersBinder:org.mockito.ArgumentMatcher:org.mockito.exceptions.Reporter:org.mockito.internal.verification.VerificationDataImpl:org.mockito.internal.creation.MockSettingsImpl:org.mockito.MockitoDebugger:org.mockito.exceptions.misusing.MissingMethodInvocationException:org.mockito.exceptions.misusing.UnfinishedVerificationException:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues:org.mockito.internal.util.MockUtil:org.mockito.internal.verification.api.VerificationData:org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod:org.mockito.internal.progress.ArgumentMatcherStorage:org.mockito.exceptions.verification.VerificationInOrderFailure:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues:org.mockito.internal.exceptions.base.StackTraceFilter:org.mockito.internal.reporting.PrintSettings:org.mockito.internal.progress.ArgumentMatcherStorageImpl:org.mockito.MockSettings:org.mockito.InjectMocks:org.mockito.exceptions.verification.TooManyActualInvocations:org.mockito.internal.invocation.CapturesArgumensFromInvocation:org.mockito.InOrder:org.mockito.internal.reporting.PrintingFriendlyInvocation:org.mockito.internal.util.StringJoiner:org.mockito.internal.matchers.MatchersPrinter:org.mockito.internal.MockHandlerInterface:org.mockito.internal.stubbing.answers.CallsRealMethods:org.mockito.internal.reporting.SmartPrinter:org.mockito.internal.verification.checkers.MissingInvocationChecker:org.mockito.internal.stubbing.InvocationContainer:org.mockito.configuration.AnnotationEngine:org.mockito.internal.debugging.Localized:org.mockito.internal.progress.IOngoingStubbing:org.mockito.exceptions.verification.ArgumentsAreDifferent:org.mockito.internal.verification.api.VerificationDataInOrder:org.mockito.internal.matchers.ContainsExtraTypeInformation:org.mockito.internal.progress.MockingProgress:org.mockito.exceptions.misusing.NotAMockException:org.mockito.internal.util.reflection.FieldSetter:org.mockito.internal.verification.RegisteredInvocations:org.mockito.internal.configuration.DefaultAnnotationEngine:org.mockito.internal.util.ObjectMethodsGuru:org.mockito.internal.matchers.CapturesArguments:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer:org.mockito.internal.invocation.InvocationsFinder:org.mockito.exceptions.verification.SmartNullPointerException:org.mockito.exceptions.verification.junit.ArgumentsAreDifferent:org.mockito.internal.creation.DelegatingMethod:org.mockito.internal.progress.MockingProgressImpl:org.mockito.verification.VerificationMode:org.mockito.internal.creation.AbstractMockitoMethodProxy:org.mockito.internal.verification.Times:org.mockito.exceptions.verification.junit.JUnitTool:org.mockito.internal.creation.jmock.ClassImposterizer:org.mockito.internal.progress.SequenceNumber:org.mockito.internal.configuration.ClassPathLoader:org.mockito.internal.creation.DelegatingMockitoMethodProxy:org.mockito.internal.invocation.realmethod.HasCGLIBMethodProxy:org.mockito.internal.invocation.realmethod.RealMethod:org.mockito.internal.util.reflection.AccessibilityChanger:org.mockito.internal.invocation.ArgumentsComparator:org.mockito.internal.stubbing.InvocationContainerImpl:org.mockito.exceptions.misusing.NullInsteadOfMockException:org.mockito.Mock:org.mockito.internal.progress.ThreadSafeMockingProgress:org.mockito.MockitoAnnotations:org.mockito.internal.MockHandler:org.mockito.exceptions.misusing.MockitoConfigurationException:org.mockito.stubbing.OngoingStubbing:org.mockito.stubbing.DeprecatedOngoingStubbing:org.mockito.internal.stubbing.OngoingStubbingImpl:org.mockito.Matchers:org.mockito.internal.debugging.Location:org.mockito.internal.creation.MethodInterceptorFilter:org.mockito.stubbing.Answer:org.mockito.internal.matchers.Same:org.mockito.internal.matchers.LocalizedMatcher:org.mockito.internal.configuration.SpyAnnotationEngine:org.mockito.stubbing.VoidMethodStubbable:org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool:org.mockito.internal.verification.MockAwareVerificationMode:org.mockito.exceptions.verification.NeverWantedButInvoked:org.mockito.internal.invocation.MockitoMethod:org.mockito.exceptions.base.MockitoException:org.mockito.internal.configuration.InjectingAnnotationEngine:org.mockito.internal.util.ListUtil:org.mockito.exceptions.base.MockitoAssertionError:org.mockito.exceptions.verification.TooLittleActualInvocations:org.mockito.internal.matchers.MatcherDecorator:org.mockito.Answers:org.mockito.internal.verification.api.VerificationInOrderMode:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls:org.mockito.internal.creation.jmock.SearchingClassLoader:org.mockito.internal.util.MockName:org.mockito.exceptions.verification.NoInteractionsWanted:org.mockito.internal.matchers.Equals:org.mockito.internal.util.Primitives:org.mockito.internal.verification.VerificationModeFactory:org.mockito.internal.progress.HandyReturnValues:org.mockito.exceptions.misusing.InvalidUseOfMatchersException:org.mockito.Mockito:org.mockito.internal.util.MockCreationValidator:org.mockito.exceptions.misusing.UnfinishedStubbingException:org.mockito.internal.MockitoCore:org.mockito.internal.stubbing.BaseStubbing:org.mockito.internal.exceptions.base.ConditionalStackTraceFilter:org.mockito.internal.creation.MockitoMethodProxy:org.mockito.exceptions.misusing.WrongTypeOfReturnValue:org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod:org.mockito.invocation.InvocationOnMock:org.mockito.internal.invocation.Invocation:org.mockito.exceptions.PrintableInvocation:org.mockito.Spy:org.mockito.internal.creation.cglib.CGLIBHacker:org.mockito.internal.creation.cglib.MockitoNamingPolicy:org.mockito.verification.VerificationWithTimeout:org.mockito.internal.MockitoInvocationHandler:org.mockito.configuration.IMockitoConfiguration:org.mockito.internal.configuration.GlobalConfiguration:org.mockito.internal.creation.jmock.SerializableNoOp:org.mockito.internal.exceptions.VerificationAwareInvocation:org.mockito.internal.invocation.InvocationMatcher:
+[DEBUG] LOADED_SUB_CLASSES: org.mockito.configuration.DefaultMockitoConfiguration$*:org.mockito.exceptions.verification.WantedButNotInvoked$*:org.mockito.internal.stubbing.defaultanswers.ReturnsDeepStubs$*:org.mockito.internal.invocation.MatchersBinder$*:org.mockito.ArgumentMatcher$*:org.mockito.exceptions.Reporter$*:org.mockito.internal.verification.VerificationDataImpl$*:org.mockito.internal.creation.MockSettingsImpl$*:org.mockito.MockitoDebugger$*:org.mockito.exceptions.misusing.MissingMethodInvocationException$*:org.mockito.exceptions.misusing.UnfinishedVerificationException$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMocks$*:org.mockito.internal.stubbing.defaultanswers.ReturnsEmptyValues$*:org.mockito.internal.util.MockUtil$*:org.mockito.internal.verification.api.VerificationData$*:org.mockito.internal.invocation.realmethod.FilteredCGLIBProxyRealMethod$*:org.mockito.internal.progress.ArgumentMatcherStorage$*:org.mockito.exceptions.verification.VerificationInOrderFailure$*:org.mockito.internal.stubbing.defaultanswers.ReturnsMoreEmptyValues$*:org.mockito.internal.exceptions.base.StackTraceFilter$*:org.mockito.internal.reporting.PrintSettings$*:org.mockito.internal.progress.ArgumentMatcherStorageImpl$*:org.mockito.MockSettings$*:org.mockito.InjectMocks$*:org.mockito.exceptions.verification.TooManyActualInvocations$*:org.mockito.internal.invocation.CapturesArgumensFromInvocation$*:org.mockito.InOrder$*:org.mockito.internal.reporting.PrintingFriendlyInvocation$*:org.mockito.internal.util.StringJoiner$*:org.mockito.internal.matchers.MatchersPrinter$*:org.mockito.internal.MockHandlerInterface$*:org.mockito.internal.stubbing.answers.CallsRealMethods$*:org.mockito.internal.reporting.SmartPrinter$*:org.mockito.internal.verification.checkers.MissingInvocationChecker$*:org.mockito.internal.stubbing.InvocationContainer$*:org.mockito.configuration.AnnotationEngine$*:org.mockito.internal.debugging.Localized$*:org.mockito.internal.progress.IOngoingStubbing$*:org.mockito.exceptions.verification.ArgumentsAreDifferent$*:org.mockito.internal.verification.api.VerificationDataInOrder$*:org.mockito.internal.matchers.ContainsExtraTypeInformation$*:org.mockito.internal.progress.MockingProgress$*:org.mockito.exceptions.misusing.NotAMockException$*:org.mockito.internal.util.reflection.FieldSetter$*:org.mockito.internal.verification.RegisteredInvocations$*:org.mockito.internal.configuration.DefaultAnnotationEngine$*:org.mockito.internal.util.ObjectMethodsGuru$*:org.mockito.internal.matchers.CapturesArguments$*:org.mockito.internal.stubbing.defaultanswers.GloballyConfiguredAnswer$*:org.mockito.internal.invocation.InvocationsFinder$*:org.mockito.exceptions.verification.SmartNullPointerException$*:org.mockito.exceptions.verification.junit.ArgumentsAreDifferent$*:org.mockito.internal.creation.DelegatingMethod$*:org.mockito.internal.progress.MockingProgressImpl$*:org.mockito.verification.VerificationMode$*:org.mockito.internal.creation.AbstractMockitoMethodProxy$*:org.mockito.internal.verification.Times$*:org.mockito.exceptions.verification.junit.JUnitTool$*:org.mockito.internal.creation.jmock.ClassImposterizer$*:org.mockito.internal.progress.SequenceNumber$*:org.mockito.internal.configuration.ClassPathLoader$*:org.mockito.internal.creation.DelegatingMockitoMethodProxy$*:org.mockito.internal.invocation.realmethod.HasCGLIBMethodProxy$*:org.mockito.internal.invocation.realmethod.RealMethod$*:org.mockito.internal.util.reflection.AccessibilityChanger$*:org.mockito.internal.invocation.ArgumentsComparator$*:org.mockito.internal.stubbing.InvocationContainerImpl$*:org.mockito.exceptions.misusing.NullInsteadOfMockException$*:org.mockito.Mock$*:org.mockito.internal.progress.ThreadSafeMockingProgress$*:org.mockito.MockitoAnnotations$*:org.mockito.internal.MockHandler$*:org.mockito.exceptions.misusing.MockitoConfigurationException$*:org.mockito.stubbing.OngoingStubbing$*:org.mockito.stubbing.DeprecatedOngoingStubbing$*:org.mockito.internal.stubbing.OngoingStubbingImpl$*:org.mockito.Matchers$*:org.mockito.internal.debugging.Location$*:org.mockito.internal.creation.MethodInterceptorFilter$*:org.mockito.stubbing.Answer$*:org.mockito.internal.matchers.Same$*:org.mockito.internal.matchers.LocalizedMatcher$*:org.mockito.internal.configuration.SpyAnnotationEngine$*:org.mockito.stubbing.VoidMethodStubbable$*:org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool$*:org.mockito.internal.verification.MockAwareVerificationMode$*:org.mockito.exceptions.verification.NeverWantedButInvoked$*:org.mockito.internal.invocation.MockitoMethod$*:org.mockito.exceptions.base.MockitoException$*:org.mockito.internal.configuration.InjectingAnnotationEngine$*:org.mockito.internal.util.ListUtil$*:org.mockito.exceptions.base.MockitoAssertionError$*:org.mockito.exceptions.verification.TooLittleActualInvocations$*:org.mockito.internal.matchers.MatcherDecorator$*:org.mockito.Answers$*:org.mockito.internal.verification.api.VerificationInOrderMode$*:org.mockito.internal.stubbing.defaultanswers.ReturnsSmartNulls$*:org.mockito.internal.creation.jmock.SearchingClassLoader$*:org.mockito.internal.util.MockName$*:org.mockito.exceptions.verification.NoInteractionsWanted$*:org.mockito.internal.matchers.Equals$*:org.mockito.internal.util.Primitives$*:org.mockito.internal.verification.VerificationModeFactory$*:org.mockito.internal.progress.HandyReturnValues$*:org.mockito.exceptions.misusing.InvalidUseOfMatchersException$*:org.mockito.Mockito$*:org.mockito.internal.util.MockCreationValidator$*:org.mockito.exceptions.misusing.UnfinishedStubbingException$*:org.mockito.internal.MockitoCore$*:org.mockito.internal.stubbing.BaseStubbing$*:org.mockito.internal.exceptions.base.ConditionalStackTraceFilter$*:org.mockito.internal.creation.MockitoMethodProxy$*:org.mockito.exceptions.misusing.WrongTypeOfReturnValue$*:org.mockito.internal.invocation.realmethod.CGLIBProxyRealMethod$*:org.mockito.invocation.InvocationOnMock$*:org.mockito.internal.invocation.Invocation$*:org.mockito.exceptions.PrintableInvocation$*:org.mockito.Spy$*:org.mockito.internal.creation.cglib.CGLIBHacker$*:org.mockito.internal.creation.cglib.MockitoNamingPolicy$*:org.mockito.verification.VerificationWithTimeout$*:org.mockito.internal.MockitoInvocationHandler$*:org.mockito.configuration.IMockitoConfiguration$*:org.mockito.internal.configuration.GlobalConfiguration$*:org.mockito.internal.creation.jmock.SerializableNoOp$*:org.mockito.internal.exceptions.VerificationAwareInvocation$*:org.mockito.internal.invocation.InvocationMatcher$*:
+[DEBUG] RELEVANT_TESTS: org.mockito.internal.matchers.MatchersToStringTest:org.mockitousage.bugs.NPEWithCertainMatchersTest:org.mockitousage.matchers.MatchersTest:org.mockitousage.verification.VerificationUsingMatchersTest:
+[DEBUG] TRIGGER_TESTS_FILE: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Mockito/trigger_tests/29
+[DEBUG] CP: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/lib/junit-4.11.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/lib/junit-4.11.jar:/tmp/yxb/gzoltar_93991_Mockito-29/target/classes:/tmp/yxb/gzoltar_93991_Mockito-29/target/test-classes:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+[INFO] Compiling Mockito-29
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running GZoltar
+[INFO] Start: Sun Aug 25 23:02:43 PDT 2019
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntPassed
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntPassed
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassed
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassed
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassedToEq
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassedToEq
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassedToSame
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenIntegerPassedToSame
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenNullPassedToSame
+* Failure: Unexpected exception, expected<java.lang.AssertionError> but was<java.lang.NullPointerException> | shouldNotThrowNPEWhenNullPassedToSame(org.mockitousage.bugs.NPEWithCertainMatchersTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.AssertionError> but was<java.lang.NullPointerException>
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:28)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.mockito.internal.matchers.Same.describeTo(Same.java:29)
+	at org.mockito.internal.matchers.LocalizedMatcher.describeTo(LocalizedMatcher.java:33)
+	at org.hamcrest.BaseDescription.appendDescriptionOf(BaseDescription.java:24)
+	at org.hamcrest.StringDescription.toString(StringDescription.java:28)
+	at org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool.toStringEquals(ArgumentMatchingTool.java:48)
+	at org.mockito.internal.verification.argumentmatching.ArgumentMatchingTool.getSuspiciouslyNotMatchingArgsIndexes(ArgumentMatchingTool.java:28)
+	at org.mockito.internal.verification.checkers.MissingInvocationChecker.check(MissingInvocationChecker.java:37)
+	at org.mockito.internal.verification.Times.verify(Times.java:35)
+	at org.mockito.internal.verification.MockAwareVerificationMode.verify(MockAwareVerificationMode.java:21)
+	at org.mockito.internal.MockHandler.handle(MockHandler.java:80)
+	at org.mockito.internal.creation.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:47)
+	at org.mockitousage.IMethods$$EnhancerByMockitoWithCGLIB$$9346a7fc.objectArgMethod(<generated>)
+	at org.mockitousage.bugs.NPEWithCertainMatchersTest.shouldNotThrowNPEWhenNullPassedToSame(NPEWithCertainMatchersTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	... 16 more
+
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenNullPassedToSame
+* Started org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenNullPassedToEq
+* Finished org.mockitousage.bugs.NPEWithCertainMatchersTest#shouldNotThrowNPEWhenNullPassedToEq
+* Started org.mockitousage.matchers.MatchersTest#sameMatcherAndNulls
+* Finished org.mockitousage.matchers.MatchersTest#sameMatcherAndNulls
+* Started org.mockitousage.matchers.MatchersTest#nullMatcher
+* Finished org.mockitousage.matchers.MatchersTest#nullMatcher
+* Started org.mockitousage.matchers.MatchersTest#compareToMatcher
+* Finished org.mockitousage.matchers.MatchersTest#compareToMatcher
+* Started org.mockitousage.matchers.MatchersTest#matchesMatcher
+* Finished org.mockitousage.matchers.MatchersTest#matchesMatcher
+* Started org.mockitousage.matchers.MatchersTest#shouldUseSmartEqualsForArrays
+* Finished org.mockitousage.matchers.MatchersTest#shouldUseSmartEqualsForArrays
+* Started org.mockitousage.matchers.MatchersTest#shouldArrayEqualsDealWithNullArray
+* Finished org.mockitousage.matchers.MatchersTest#shouldArrayEqualsDealWithNullArray
+* Started org.mockitousage.matchers.MatchersTest#orOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#orOverloaded
+* Started org.mockitousage.matchers.MatchersTest#eqMatcherAndNulls
+* Finished org.mockitousage.matchers.MatchersTest#eqMatcherAndNulls
+* Started org.mockitousage.matchers.MatchersTest#arrayEqualsMatcher
+* Finished org.mockitousage.matchers.MatchersTest#arrayEqualsMatcher
+* Started org.mockitousage.matchers.MatchersTest#deltaMatcherPrintsItself
+* Finished org.mockitousage.matchers.MatchersTest#deltaMatcherPrintsItself
+* Started org.mockitousage.matchers.MatchersTest#andOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#andOverloaded
+* Started org.mockitousage.matchers.MatchersTest#endsWithMatcher
+* Finished org.mockitousage.matchers.MatchersTest#endsWithMatcher
+* Started org.mockitousage.matchers.MatchersTest#notNullMatcher
+* Finished org.mockitousage.matchers.MatchersTest#notNullMatcher
+* Started org.mockitousage.matchers.MatchersTest#deltaMatcher
+* Finished org.mockitousage.matchers.MatchersTest#deltaMatcher
+* Started org.mockitousage.matchers.MatchersTest#anyMatcher
+* Finished org.mockitousage.matchers.MatchersTest#anyMatcher
+* Started org.mockitousage.matchers.MatchersTest#shouldUseSmartEqualsForPrimitiveArrays
+* Finished org.mockitousage.matchers.MatchersTest#shouldUseSmartEqualsForPrimitiveArrays
+* Started org.mockitousage.matchers.MatchersTest#lessThanMatcher
+* Finished org.mockitousage.matchers.MatchersTest#lessThanMatcher
+* Started org.mockitousage.matchers.MatchersTest#orMatcher
+* Finished org.mockitousage.matchers.MatchersTest#orMatcher
+* Started org.mockitousage.matchers.MatchersTest#sameMatcher
+* Finished org.mockitousage.matchers.MatchersTest#sameMatcher
+* Started org.mockitousage.matchers.MatchersTest#greaterOrEqualMatcherOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#greaterOrEqualMatcherOverloaded
+* Started org.mockitousage.matchers.MatchersTest#containsMatcher
+* Finished org.mockitousage.matchers.MatchersTest#containsMatcher
+* Started org.mockitousage.matchers.MatchersTest#anyStringMatcher
+* Finished org.mockitousage.matchers.MatchersTest#anyStringMatcher
+* Started org.mockitousage.matchers.MatchersTest#greaterThanMatcherOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#greaterThanMatcherOverloaded
+* Started org.mockitousage.matchers.MatchersTest#arrayEqualsShouldThrowArgumentsAreDifferentExceptionForNonMatchingArguments
+* Finished org.mockitousage.matchers.MatchersTest#arrayEqualsShouldThrowArgumentsAreDifferentExceptionForNonMatchingArguments
+* Started org.mockitousage.matchers.MatchersTest#notOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#notOverloaded
+* Started org.mockitousage.matchers.MatchersTest#greaterOrEqualMatcher
+* Finished org.mockitousage.matchers.MatchersTest#greaterOrEqualMatcher
+* Started org.mockitousage.matchers.MatchersTest#lessThanOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#lessThanOverloaded
+* Started org.mockitousage.matchers.MatchersTest#startsWithMatcher
+* Finished org.mockitousage.matchers.MatchersTest#startsWithMatcher
+* Started org.mockitousage.matchers.MatchersTest#findMatcher
+* Finished org.mockitousage.matchers.MatchersTest#findMatcher
+* Started org.mockitousage.matchers.MatchersTest#lessOrEqualMatcher
+* Finished org.mockitousage.matchers.MatchersTest#lessOrEqualMatcher
+* Started org.mockitousage.matchers.MatchersTest#lessOrEqualOverloaded
+* Finished org.mockitousage.matchers.MatchersTest#lessOrEqualOverloaded
+* Started org.mockitousage.matchers.MatchersTest#greaterThanMatcher
+* Finished org.mockitousage.matchers.MatchersTest#greaterThanMatcher
+* Started org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyUsingSameMatcher
+* Finished org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyUsingSameMatcher
+* Started org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyExactNumberOfInvocationsUsingMatcher
+* Finished org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyExactNumberOfInvocationsUsingMatcher
+* Started org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyUsingMixedMatchers
+* Finished org.mockitousage.verification.VerificationUsingMatchersTest#shouldVerifyUsingMixedMatchers
+* Started org.mockito.internal.matchers.MatchersToStringTest#orToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#orToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#nullToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#nullToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#findToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#findToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#notToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#notToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithChar
+* Finished org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithChar
+* Started org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithChar
+* Finished org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithChar
+* Started org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithObject
+* Finished org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithObject
+* Started org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#sameToStringWithString
+* Started org.mockito.internal.matchers.MatchersToStringTest#andToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#andToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#matchesToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#matchesToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#startsWithToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#startsWithToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#anyToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#anyToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#endsWithToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#endsWithToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#notNullToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#notNullToString
+* Started org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithObject
+* Finished org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithObject
+* Started org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#equalsToStringWithString
+* Started org.mockito.internal.matchers.MatchersToStringTest#containsToString
+* Finished org.mockito.internal.matchers.MatchersToStringTest#containsToString
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Mockito/29/matrix'
+* Writing spectra to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Mockito/29/spectra'
+* Metrics
+* Computation finished
+[INFO] End: Sun Aug 25 23:02:50 PDT 2019
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+
+DONE!

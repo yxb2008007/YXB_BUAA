@@ -1,0 +1,750 @@
+[DEBUG] PID: Lang
+[DEBUG] VID: 41
+[DEBUG] DATA_DIR: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/41
+[DEBUG] TOOL: developer
+[DEBUG] TESTS_DIR: 
+[DEBUG] TMP_DIR: /tmp/yxb/gzoltar_11112_Lang-41
+[DEBUG] DIR_PROJECT: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang
+[DEBUG] DIR_LOADED_CLASSES: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+[INFO] Checking out Lang-41 to /tmp/yxb/gzoltar_11112_Lang-41
+Check out 4d3629f3 to /tmp/yxb/gzoltar_11112_Lang-41....................... OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Run post-checkout hook..................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 4d3629f3:ac58807e..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Lang-41b........................................ OK
+[DEBUG] LOADED_CLASSES: org.apache.commons.lang.ClassUtils:
+[DEBUG] LOADED_SUB_CLASSES: org.apache.commons.lang.ClassUtils$*:
+[DEBUG] RELEVANT_TESTS: org.apache.commons.lang.ClassUtilsTest:org.apache.commons.lang.builder.DefaultToStringStyleTest:org.apache.commons.lang.builder.MultiLineToStringStyleTest:org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest:org.apache.commons.lang.builder.ShortPrefixToStringStyleTest:org.apache.commons.lang.builder.SimpleToStringStyleTest:org.apache.commons.lang.builder.StandardToStringStyleTest:org.apache.commons.lang.builder.ToStringBuilderTest:org.apache.commons.lang.exception.ExceptionUtilsTest:org.apache.commons.lang.reflect.ConstructorUtilsTest:org.apache.commons.lang.reflect.FieldUtilsTest:org.apache.commons.lang.reflect.MethodUtilsTest:
+[DEBUG] TRIGGER_TESTS_FILE: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/trigger_tests/41
+[DEBUG] CP: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/lib/junit-4.11.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/junit/junit/4.7/junit-4.7.jar:/tmp/yxb/gzoltar_11112_Lang-41/target/classes:/tmp/yxb/gzoltar_11112_Lang-41/target/test-classes:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/cglib.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/asm.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/easymock.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/commons-io.jar
+[INFO] Compiling Lang-41
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running GZoltar
+[INFO] Start: Sun Aug 25 21:28:53 PDT 2019
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/junit/junit/4.7/junit-4.7.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.StandardToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.StandardToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.MultiLineToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.MultiLineToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testCharArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testCharArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionHierarchyArrayList
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionHierarchyArrayList
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionNull
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionNull
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testDoubleArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testDoubleArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBoolean
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBoolean
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testObjectArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testObjectArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionHierarchy
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionHierarchy
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testSelfInstanceTwoVarsReflectionObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testSelfInstanceTwoVarsReflectionObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testAppendToStringUsingMultiLineStyle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testAppendToStringUsingMultiLineStyle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testShortArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testShortArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testBooleanArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testBooleanArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testFloatArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testFloatArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testInt
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testInt
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testByteArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testByteArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionLongArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionLongArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testBlank
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testBlank
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testFloat
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testFloat
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testShort
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testShort
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayArrayCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayArrayCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testByte
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testByte
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testChar
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testChar
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testLong
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testLong
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionFloatArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionFloatArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testBoolean
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testBoolean
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionDoubleArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionDoubleArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBooleanArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBooleanArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionInteger
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionInteger
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testBooleanArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testBooleanArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testFloatArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testFloatArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionyteArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionyteArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionDoubleArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionDoubleArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionIntArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionIntArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testSimpleReflectionStatics
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testSimpleReflectionStatics
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionStatics
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionStatics
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionLongArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionLongArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionhortArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionhortArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx1
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx1
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx2
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx2
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx3
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testConstructorEx3
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionObjectArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionObjectArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBooleanArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionBooleanArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testLongArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testLongArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testSimpleReflectionObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testSimpleReflectionObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testShortArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testShortArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testIntArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testIntArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testInheritedReflectionStatics
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testInheritedReflectionStatics
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionByteArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionByteArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayCycleLevel2
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayCycleLevel2
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testAppendToString
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testAppendToString
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayAndObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionArrayAndObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testSetDefaultEx
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testSetDefaultEx
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testIntArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testIntArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testDouble
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testDouble
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testByteArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testByteArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionShortArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionShortArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testCharArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testCharArrayArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testSelfInstanceVarReflectionObjectCycle
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testSelfInstanceVarReflectionObjectCycle
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testObject
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testObject
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testAppendSuper
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionIntArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionIntArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testGetSetDefault
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testGetSetDefault
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testInnerClassReflection
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testInnerClassReflection
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharacter
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionCharacter
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testDoubleArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testDoubleArray
+* Started org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionFloatArrayArray
+* Finished org.apache.commons.lang.builder.ToStringBuilderTest#testReflectionFloatArrayArray
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.SimpleToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.SimpleToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.NoFieldNamesToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.ShortPrefixToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testObjectArray
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testObjectArray
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testBlank
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testBlank
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testLong
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testLong
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testLongArrayArray
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testLongArrayArray
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testLongArray
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testLongArray
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testObject
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testObject
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testPerson
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testPerson
+* Started org.apache.commons.lang.builder.DefaultToStringStyleTest#testAppendSuper
+* Finished org.apache.commons.lang.builder.DefaultToStringStyleTest#testAppendSuper
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testInvokeConstructor
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testInvokeConstructor
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetAccessibleConstructorFromDescription
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetAccessibleConstructorFromDescription
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testInvokeExactConstructor
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testInvokeExactConstructor
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetAccessibleConstructor
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetAccessibleConstructor
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetMatchingAccessibleMethod
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testGetMatchingAccessibleMethod
+* Started org.apache.commons.lang.reflect.ConstructorUtilsTest#testConstructor
+* Finished org.apache.commons.lang.reflect.ConstructorUtilsTest#testConstructor
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testGetField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testGetField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadDeclaredNamedStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testAmbig
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testAmbig
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testGetFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testGetFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteNamedFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadStaticField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadStaticField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedStaticFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedStaticFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testWriteDeclaredNamedField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testGetDeclaredField
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testGetDeclaredField
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testGetDeclaredFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testGetDeclaredFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadFieldForceAccess
+* Started org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedFieldForceAccess
+* Finished org.apache.commons.lang.reflect.FieldUtilsTest#testReadNamedFieldForceAccess
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessibleInterfaceMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessibleInterfaceMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessibleInterfaceMethodFromDescription
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessibleInterfaceMethodFromDescription
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeStaticMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeStaticMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessiblePublicMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessiblePublicMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testGetMatchingAccessibleMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testGetMatchingAccessibleMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeExactMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeExactMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeExactStaticMethod
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testInvokeExactStaticMethod
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessiblePublicMethodFromDescription
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testGetAccessiblePublicMethodFromDescription
+* Started org.apache.commons.lang.reflect.MethodUtilsTest#testConstructor
+* Finished org.apache.commons.lang.reflect.MethodUtilsTest#testConstructor
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOfType_ThrowableClass
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOfType_ThrowableClass
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#test_getRootCauseMessage_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#test_getRootCauseMessage_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIsNestedThrowable_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIsNestedThrowable_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_null
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_null
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_nested
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_nested
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_jdkNoCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_jdkNoCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_null
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_null
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_nested
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_nested
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_selfCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_selfCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#test_getMessage_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#test_getMessage_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_withCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_withCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetCause_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetCause_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testRemoveCommonFrames_ListList
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testRemoveCommonFrames_ListList
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testCauseMethodNameOps
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testCauseMethodNameOps
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOf_ThrowableClass
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOf_ThrowableClass
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_ThrowableStream
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_ThrowableStream
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_withoutCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_withoutCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_ThrowableWriter
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testPrintRootCauseStackTrace_ThrowableWriter
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetRootCauseStackTrace_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetRootCauseStackTrace_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableCount_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableCount_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetCause_ThrowableArray
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetCause_ThrowableArray
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testSetCauseToNull
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testSetCauseToNull
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_withoutCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_withoutCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOf_ThrowableClassInt
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOf_ThrowableClassInt
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_recursiveCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_recursiveCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOfType_ThrowableClassInt
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIndexOfType_ThrowableClassInt
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_recursiveCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_recursiveCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_selfCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_selfCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_jdkNoCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowables_Throwable_jdkNoCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_withCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetThrowableList_Throwable_withCause
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testIsThrowableNested
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testIsThrowableNested
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testConstructor
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testConstructor
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testGetRootCause_Throwable
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testGetRootCause_Throwable
+* Started org.apache.commons.lang.exception.ExceptionUtilsTest#testSetCause
+* Finished org.apache.commons.lang.exception.ExceptionUtilsTest#testSetCause
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_Class
+* Failure: expected:<String[[]]> but was:<String[;]> | test_getShortClassName_Class(org.apache.commons.lang.ClassUtilsTest)
+junit.framework.ComparisonFailure: expected:<String[[]]> but was:<String[;]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at org.apache.commons.lang.ClassUtilsTest.test_getShortClassName_Class(ClassUtilsTest.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_Class
+* Started org.apache.commons.lang.ClassUtilsTest#test_isAssignable
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isAssignable
+* Started org.apache.commons.lang.ClassUtilsTest#testShowJavaBug
+* Finished org.apache.commons.lang.ClassUtilsTest#testShowJavaBug
+* Started org.apache.commons.lang.ClassUtilsTest#testToClass_object
+* Finished org.apache.commons.lang.ClassUtilsTest#testToClass_object
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassByNormalNameArrays
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassByNormalNameArrays
+* Started org.apache.commons.lang.ClassUtilsTest#test_getAllSuperclasses_Class
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getAllSuperclasses_Class
+* Started org.apache.commons.lang.ClassUtilsTest#testPrimitiveToWrapper
+* Finished org.apache.commons.lang.ClassUtilsTest#testPrimitiveToWrapper
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_Object
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_Object
+* Started org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Widening
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Widening
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_String
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_String
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassWithArrayClasses
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassWithArrayClasses
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_Class
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageCanonicalName_Class
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_Object
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_Object
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_String
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortClassName_String
+* Started org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitive
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitive
+* Started org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitives
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitives
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassWithArrayClasses2D
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassWithArrayClasses2D
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageName_Object
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageName_Object
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageName_String
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageName_String
+* Started org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitiveNull
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitiveNull
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassByNormalNameArrays2D
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassByNormalNameArrays2D
+* Started org.apache.commons.lang.ClassUtilsTest#testWithInterleavingWhitespace
+* Finished org.apache.commons.lang.ClassUtilsTest#testWithInterleavingWhitespace
+* Started org.apache.commons.lang.ClassUtilsTest#test_getPackageName_Class
+* Failure: expected:<[]java.lang> but was:<[[L]java.lang> | test_getPackageName_Class(org.apache.commons.lang.ClassUtilsTest)
+junit.framework.ComparisonFailure: expected:<[]java.lang> but was:<[[L]java.lang>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at org.apache.commons.lang.ClassUtilsTest.test_getPackageName_Class(ClassUtilsTest.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getPackageName_Class
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_Object
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_Object
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_String
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_String
+* Started org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_Class
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getShortCanonicalName_Class
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassRawPrimitives
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassRawPrimitives
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassInvalidArguments
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassInvalidArguments
+* Started org.apache.commons.lang.ClassUtilsTest#testPrimitivesToWrappers
+* Finished org.apache.commons.lang.ClassUtilsTest#testPrimitivesToWrappers
+* Started org.apache.commons.lang.ClassUtilsTest#testGetClassClassNotFound
+[ERROR] Class not found
+java.lang.ClassNotFoundException: bool
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:278)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:726)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:774)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:757)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsException(ClassUtilsTest.java:693)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsClassNotFound(ClassUtilsTest.java:706)
+	at org.apache.commons.lang.ClassUtilsTest.testGetClassClassNotFound(ClassUtilsTest.java:606)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: bool
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:278)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:726)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:774)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:757)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsException(ClassUtilsTest.java:693)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsClassNotFound(ClassUtilsTest.java:706)
+	at org.apache.commons.lang.ClassUtilsTest.testGetClassClassNotFound(ClassUtilsTest.java:607)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: integer
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:278)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:726)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:774)
+	at org.apache.commons.lang.ClassUtils.getClass(ClassUtils.java:757)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsException(ClassUtilsTest.java:693)
+	at org.apache.commons.lang.ClassUtilsTest.assertGetClassThrowsClassNotFound(ClassUtilsTest.java:706)
+	at org.apache.commons.lang.ClassUtilsTest.testGetClassClassNotFound(ClassUtilsTest.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetClassClassNotFound
+* Started org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitivesNull
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitivesNull
+* Started org.apache.commons.lang.ClassUtilsTest#test_isInnerClass_Class
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isInnerClass_Class
+* Started org.apache.commons.lang.ClassUtilsTest#test_isAssignable_ClassArray_ClassArray
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isAssignable_ClassArray_ClassArray
+* Started org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Unboxing_Widening
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Unboxing_Widening
+* Started org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitivesEmpty
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrappersToPrimitivesEmpty
+* Started org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitiveNoWrapper
+* Finished org.apache.commons.lang.ClassUtilsTest#testWrapperToPrimitiveNoWrapper
+* Started org.apache.commons.lang.ClassUtilsTest#test_convertClassNamesToClasses_List
+[ERROR] Class not found
+java.lang.ClassNotFoundException: java.lang.xxx
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:195)
+	at org.apache.commons.lang.ClassUtils.convertClassNamesToClasses(ClassUtils.java:340)
+	at org.apache.commons.lang.ClassUtilsTest.test_convertClassNamesToClasses_List(ClassUtilsTest.java:220)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] Class not found
+java.lang.ClassNotFoundException: java.lang.xxx
+	at java.lang.ClassLoader.findClass(ClassLoader.java:531)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at com.gzoltar.lib.instrumentation.util.GZoltarClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:195)
+	at org.apache.commons.lang.ClassUtils.convertClassNamesToClasses(ClassUtils.java:340)
+	at org.apache.commons.lang.ClassUtilsTest.test_convertClassNamesToClasses_List(ClassUtilsTest.java:228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at junit.framework.TestCase.runTest(TestCase.java:176)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+* Finished org.apache.commons.lang.ClassUtilsTest#test_convertClassNamesToClasses_List
+* Started org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Autoboxing
+* Finished org.apache.commons.lang.ClassUtilsTest#test_isAssignable_Autoboxing
+* Started org.apache.commons.lang.ClassUtilsTest#test_convertClassesToClassNames_List
+* Finished org.apache.commons.lang.ClassUtilsTest#test_convertClassesToClassNames_List
+* Started org.apache.commons.lang.ClassUtilsTest#testGetPublicMethod
+* Finished org.apache.commons.lang.ClassUtilsTest#testGetPublicMethod
+* Started org.apache.commons.lang.ClassUtilsTest#test_getAllInterfaces_Class
+* Finished org.apache.commons.lang.ClassUtilsTest#test_getAllInterfaces_Class
+* Started org.apache.commons.lang.ClassUtilsTest#testConstructor
+* Finished org.apache.commons.lang.ClassUtilsTest#testConstructor
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/41/matrix'
+* Writing spectra to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/41/spectra'
+* Metrics
+* Computation finished
+[INFO] End: Sun Aug 25 21:28:56 PDT 2019
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+
+DONE!

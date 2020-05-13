@@ -1,0 +1,2102 @@
+[DEBUG] PID: math
+[DEBUG] VID: 1faults/v_12
+[DEBUG] DATA_DIR: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/math/1faults/v_12
+[DEBUG] TOOL: developer
+[DEBUG] project_path: /home/yxb/Documents/Scripts_for_math/injectfaults1/v_12
+[DEBUG] DIR_LOADED_CLASSES: /home/yxb/Documents/Loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /home/yxb/Documents/Relevant_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+[DEBUG] LOADED_CLASSES: org.apache.commons.math.random.RandomData:org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:org.apache.commons.math.stat.descriptive.WeightedEvaluation:org.apache.commons.math.exception.NumberIsTooLargeException:org.apache.commons.math.exception.NumberIsTooSmallException:org.apache.commons.math.exception.MathIllegalArgumentException:org.apache.commons.math.stat.descriptive.moment.FirstMoment:org.apache.commons.math.stat.descriptive.summary.Sum:org.apache.commons.math.exception.util.Localizable:org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic:org.apache.commons.math.stat.descriptive.moment.Variance:org.apache.commons.math.exception.DimensionMismatchException:org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic:org.apache.commons.math.stat.descriptive.UnivariateStatistic:org.apache.commons.math.stat.descriptive.moment.SecondMoment:org.apache.commons.math.exception.MathIllegalNumberException:org.apache.commons.math.stat.descriptive.moment.Mean:org.apache.commons.math.exception.NotPositiveException:org.apache.commons.math.exception.util.ExceptionContextProvider:org.apache.commons.math.util.FastMath:org.apache.commons.math.exception.NullArgumentException:
+[DEBUG] LOADED_SUB_CLASSES: org.apache.commons.math.random.RandomData$*:org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic$*:org.apache.commons.math.stat.descriptive.WeightedEvaluation$*:org.apache.commons.math.exception.NumberIsTooLargeException$*:org.apache.commons.math.exception.NumberIsTooSmallException$*:org.apache.commons.math.exception.MathIllegalArgumentException$*:org.apache.commons.math.stat.descriptive.moment.FirstMoment$*:org.apache.commons.math.stat.descriptive.summary.Sum$*:org.apache.commons.math.exception.util.Localizable$*:org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic$*:org.apache.commons.math.stat.descriptive.moment.Variance$*:org.apache.commons.math.exception.DimensionMismatchException$*:org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic$*:org.apache.commons.math.stat.descriptive.UnivariateStatistic$*:org.apache.commons.math.stat.descriptive.moment.SecondMoment$*:org.apache.commons.math.exception.MathIllegalNumberException$*:org.apache.commons.math.stat.descriptive.moment.Mean$*:org.apache.commons.math.exception.NotPositiveException$*:org.apache.commons.math.exception.util.ExceptionContextProvider$*:org.apache.commons.math.util.FastMath$*:org.apache.commons.math.exception.NullArgumentException$*:
+[DEBUG] RELEVANT_TESTS: org.apache.commons.math.ode.JacobianMatricesTest:org.apache.commons.math.optimization.univariate.BrentOptimizerTest:org.apache.commons.math.stat.CertifiedDataTest:org.apache.commons.math.stat.StatUtilsTest:org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest:org.apache.commons.math.stat.correlation.CovarianceTest:org.apache.commons.math.stat.correlation.PearsonsCorrelationTest:org.apache.commons.math.stat.data.LewTest:org.apache.commons.math.stat.data.LotteryTest:org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest:org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest:org.apache.commons.math.stat.descriptive.ListUnivariateImplTest:org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest:org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest:org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest:org.apache.commons.math.stat.descriptive.moment.InteractionTest:org.apache.commons.math.stat.descriptive.moment.KurtosisTest:org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest:org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest:org.apache.commons.math.stat.descriptive.moment.VarianceTest:org.apache.commons.math.stat.inference.TTestTest:org.apache.commons.math.stat.inference.TestUtilsTest:org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest:org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest:org.apache.commons.math.util.ResizableDoubleArrayTest:org.apache.commons.math.util.FastMathTest:
+[DEBUG] CP: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/lib/junit-4.11.jar:/home/yxb/Documents/Scripts_for_math/injectfaults1/v_12/target/classes:/home/yxb/Documents/Scripts_for_math/injectfaults1/v_12/target/test-classes:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/lib/junit-4.11.jar:/home/yxb/Documents/Scripts_for_math/injectfaults1/v_12/lib/junit-4.8.2.jar
+[INFO] Compiling math-1faults/v_12
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running GZoltar
+[INFO] Start: Wed Sep 19 01:58:25 PDT 2018
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+[ERROR] /home/yxb/Documents/Scripts_for_math/injectfaults1/v_12/lib/junit-4.8.2.jar does not exist
+java.lang.Exception
+	at com.gzoltar.lib.master.modes.Diagnose.execute(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.parseCommandLine(Unknown Source)
+	at com.gzoltar.lib.master.GZoltar.main(Unknown Source)
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMax
+* Finished org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMax
+* Started org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMin
+* Finished org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMin
+* Started org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testMinEndpoints
+* Finished org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testMinEndpoints
+* Started org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMinStatistics
+* Failure: null | testQuinticMinStatistics(org.apache.commons.math.optimization.univariate.BrentOptimizerTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.math.optimization.univariate.BrentOptimizerTest.testQuinticMinStatistics(BrentOptimizerTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testQuinticMinStatistics
+* Started org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testSinMin
+* Finished org.apache.commons.math.optimization.univariate.BrentOptimizerTest#testSinMin
+* Started org.apache.commons.math.stat.StatUtilsTest#testNormalize1
+* Failure: null | testNormalize1(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.math.stat.StatUtilsTest.testNormalize1(StatUtilsTest.java:477)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testNormalize1
+* Started org.apache.commons.math.stat.StatUtilsTest#testNormalize2
+* Failure: expected:<0.0> but was:<2.3771622440723448> | testNormalize2(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError: expected:<0.0> but was:<2.3771622440723448>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.StatUtilsTest.testNormalize2(StatUtilsTest.java:506)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testNormalize2
+* Started org.apache.commons.math.stat.StatUtilsTest#testDifferenceStats
+* Failure: expected:<0.0> but was:<-1.0> | testDifferenceStats(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError: expected:<0.0> but was:<-1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.StatUtilsTest.testDifferenceStats(StatUtilsTest.java:426)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testDifferenceStats
+* Started org.apache.commons.math.stat.StatUtilsTest#testPercentile
+* Finished org.apache.commons.math.stat.StatUtilsTest#testPercentile
+* Started org.apache.commons.math.stat.StatUtilsTest#testArrayIndexConditions
+* Finished org.apache.commons.math.stat.StatUtilsTest#testArrayIndexConditions
+* Started org.apache.commons.math.stat.StatUtilsTest#testMax
+* Finished org.apache.commons.math.stat.StatUtilsTest#testMax
+* Started org.apache.commons.math.stat.StatUtilsTest#testMin
+* Finished org.apache.commons.math.stat.StatUtilsTest#testMin
+* Started org.apache.commons.math.stat.StatUtilsTest#testStats
+* Failure: mean expected:<2.0> but was:<1.0> | testStats(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError: mean expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.StatUtilsTest.testStats(StatUtilsTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testStats
+* Started org.apache.commons.math.stat.StatUtilsTest#testSumSq
+* Finished org.apache.commons.math.stat.StatUtilsTest#testSumSq
+* Started org.apache.commons.math.stat.StatUtilsTest#testMean
+* Failure: expected:<2.0> but was:<1.0> | testMean(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:55)
+	at org.apache.commons.math.stat.StatUtilsTest.testMean(StatUtilsTest.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testMean
+* Started org.apache.commons.math.stat.StatUtilsTest#testN0andN1Conditions
+* Failure: Mean of n = 1 set should be value of single item n1 | testN0andN1Conditions(org.apache.commons.math.stat.StatUtilsTest)
+java.lang.AssertionError: Mean of n = 1 set should be value of single item n1
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.apache.commons.math.stat.StatUtilsTest.testN0andN1Conditions(StatUtilsTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.StatUtilsTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.StatUtilsTest#testProduct
+* Finished org.apache.commons.math.stat.StatUtilsTest#testProduct
+* Started org.apache.commons.math.stat.StatUtilsTest#testGeometricMean
+* Finished org.apache.commons.math.stat.StatUtilsTest#testGeometricMean
+* Started org.apache.commons.math.stat.StatUtilsTest#testVariance
+* Finished org.apache.commons.math.stat.StatUtilsTest#testVariance
+* Started org.apache.commons.math.stat.StatUtilsTest#testPopulationVariance
+* Finished org.apache.commons.math.stat.StatUtilsTest#testPopulationVariance
+* Started org.apache.commons.math.stat.StatUtilsTest#testSumLog
+* Finished org.apache.commons.math.stat.StatUtilsTest#testSumLog
+* Started org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testPerformClusterAnalysisDegenerate
+* Finished org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testPerformClusterAnalysisDegenerate
+* Started org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testCertainSpace
+* Finished org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testCertainSpace
+* Started org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testPerformClusterAnalysisToManyClusters
+* Finished org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testPerformClusterAnalysisToManyClusters
+* Started org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testSmallDistances
+* Finished org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testSmallDistances
+* Started org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#dimension2
+* Finished org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#dimension2
+* Started org.apache.commons.math.stat.correlation.CovarianceTest#testInsufficientData
+* Finished org.apache.commons.math.stat.correlation.CovarianceTest#testInsufficientData
+* Started org.apache.commons.math.stat.correlation.CovarianceTest#testSwissFertility
+* Failure: covariance matrix
+Expected: Array2DRowRealMatrix{{156.0424976873265,100.1691489361702,-64.36692876965772,-79.7295097132285,241.5632030527289},{100.16914893617025,515.7994172062905,-124.39283071230344,-139.6574005550416,379.9043755781684},{-64.3669287696577,-124.3928307123034,63.64662349676226,53.5758556891767,-190.5606105457909},{-79.7295097132285,-139.6574005550416,53.57585568917669,92.4560592044403,-61.698829787234},{241.5632030527289,379.9043755781684,-190.56061054579092,-61.698829787234,1739.294537187789}}
+Observed: BlockRealMatrix{{156.04249768732657,101.19088806660501,-63.34518963922292,-78.70777058279371,242.5849421831638},{101.19088806660501,515.7994172062904,-123.37109158186865,-138.63566142460684,380.9261147086032},{-63.34518963922292,-123.37109158186865,63.64662349676225,54.59759481961149,-189.53887141535617},{-78.70777058279371,-138.63566142460684,54.59759481961149,92.45605920444032,-60.677090656799244},{242.5849421831638,380.9261147086032,-189.53887141535617,-60.677090656799244,1739.2945371877893}}
+expected - observed: Array2DRowRealMatrix{{-8.526512829121202E-14,-1.0217391304348098,-1.0217391304347956,-1.0217391304347814,-1.021739130434895},{-1.0217391304347672,1.1368683772161603E-13,-1.0217391304347814,-1.021739130434753,-1.0217391304348098},{-1.0217391304347814,-1.0217391304347387,7.105427357601002E-15,-1.0217391304347885,-1.0217391304347245},{-1.0217391304347814,-1.021739130434753,-1.0217391304347956,-2.8421709430404007E-14,-1.021739130434753},{-1.021739130434895,-1.0217391304348098,-1.021739130434753,-1.021739130434753,-2.2737367544323206E-13}} | testSwissFertility(org.apache.commons.math.stat.correlation.CovarianceTest)
+java.lang.AssertionError: covariance matrix
+Expected: Array2DRowRealMatrix{{156.0424976873265,100.1691489361702,-64.36692876965772,-79.7295097132285,241.5632030527289},{100.16914893617025,515.7994172062905,-124.39283071230344,-139.6574005550416,379.9043755781684},{-64.3669287696577,-124.3928307123034,63.64662349676226,53.5758556891767,-190.5606105457909},{-79.7295097132285,-139.6574005550416,53.57585568917669,92.4560592044403,-61.698829787234},{241.5632030527289,379.9043755781684,-190.56061054579092,-61.698829787234,1739.294537187789}}
+Observed: BlockRealMatrix{{156.04249768732657,101.19088806660501,-63.34518963922292,-78.70777058279371,242.5849421831638},{101.19088806660501,515.7994172062904,-123.37109158186865,-138.63566142460684,380.9261147086032},{-63.34518963922292,-123.37109158186865,63.64662349676225,54.59759481961149,-189.53887141535617},{-78.70777058279371,-138.63566142460684,54.59759481961149,92.45605920444032,-60.677090656799244},{242.5849421831638,380.9261147086032,-189.53887141535617,-60.677090656799244,1739.2945371877893}}
+expected - observed: Array2DRowRealMatrix{{-8.526512829121202E-14,-1.0217391304348098,-1.0217391304347956,-1.0217391304347814,-1.021739130434895},{-1.0217391304347672,1.1368683772161603E-13,-1.0217391304347814,-1.021739130434753,-1.0217391304348098},{-1.0217391304347814,-1.0217391304347387,7.105427357601002E-15,-1.0217391304347885,-1.0217391304347245},{-1.0217391304347814,-1.021739130434753,-1.0217391304347956,-2.8421709430404007E-14,-1.021739130434753},{-1.021739130434895,-1.0217391304348098,-1.021739130434753,-1.021739130434753,-2.2737367544323206E-13}}
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:265)
+	at org.apache.commons.math.stat.correlation.CovarianceTest.testSwissFertility(CovarianceTest.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.CovarianceTest#testSwissFertility
+* Started org.apache.commons.math.stat.correlation.CovarianceTest#testConstant
+* Failure: expected:<0.0> but was:<1.3333333333333333> | testConstant(org.apache.commons.math.stat.correlation.CovarianceTest)
+java.lang.AssertionError: expected:<0.0> but was:<1.3333333333333333>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.correlation.CovarianceTest.testConstant(CovarianceTest.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.CovarianceTest#testConstant
+* Started org.apache.commons.math.stat.correlation.CovarianceTest#testConsistency
+* Failure: expected:<156.04249768732657> but was:<157.06423681776138> | testConsistency(org.apache.commons.math.stat.correlation.CovarianceTest)
+java.lang.AssertionError: expected:<156.04249768732657> but was:<157.06423681776138>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.correlation.CovarianceTest.testConsistency(CovarianceTest.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.CovarianceTest#testConsistency
+* Started org.apache.commons.math.stat.correlation.CovarianceTest#testLongly
+* Failure: covariance matrix
+Expected: Array2DRowRealMatrix{{1.2333921733333332E7,36796.66,3.433302063333333E8,1649102.6666666667,1117681.0666666667,2.3461965733333334E7,16240.933333333332},{36796.66,116.457625,1063604.115416667,6258.66625,3490.25375,73503.0,50.92333333333334},{3.433302063333333E8,1063604.115416667,9.879353659329166E9,5.6124369854166664E7,3.0880428345833335E7,6.852409446E8,470977.9},{1649102.6666666667,6258.66625,5.6124369854166664E7,873223.4291666667,-115378.7625,4462741.533333333,2973.0333333333333},{1117681.0666666667,3490.25375,3.0880428345833335E7,-115378.7625,484304.0958333333,1764098.133333333,1382.4333333333334},{2.3461965733333334E7,73503.0,6.852409446E8,4462741.533333333,1764098.1333333333,4.838734893333333E7,32917.4},{16240.93333333333,50.92333333333334,470977.9,2973.033333333333,1382.433333333333,32917.4,22.66666666666667}}
+Observed: BlockRealMatrix{{1.2333921733333332E7,36797.72666666667,3.433302074E8,1649103.7333333334,1117682.1333333335,2.34619668E7,16242.0},{36797.72666666667,116.45762500000001,1063605.1820833334,6259.732916666668,3491.320416666667,73504.06666666667,51.989999999999995},{3.433302074E8,1063605.1820833334,9.879353659329166E9,5.6124370920833334E7,3.088042941249999E7,6.852409456666667E8,470978.9666666667},{1649103.7333333334,6259.732916666668,5.6124370920833334E7,873223.4291666667,-115377.69583333333,4462742.6,2974.1},{1117682.1333333335,3491.320416666667,3.088042941249999E7,-115377.69583333333,484304.0958333333,1764099.2,1383.5},{2.34619668E7,73504.06666666667,6.852409456666667E8,4462742.6,1764099.2,4.838734893333333E7,32918.46666666667},{16242.0,51.989999999999995,470978.9666666667,2974.1,1383.5,32918.46666666667,22.666666666666668}}
+expected - observed: Array2DRowRealMatrix{{0.0,-1.0666666666656965,-1.0666666626930237,-1.0666666666511446,-1.0666666668839753,-1.066666666418314,-1.0666666666675155},{-1.0666666666656965,-1.4210854715202004E-14,-1.066666666418314,-1.0666666666675155,-1.0666666666670608,-1.0666666666656965,-1.0666666666666558},{-1.0666666626930237,-1.066666666418314,0.0,-1.0666666701436043,-1.066666655242443,-1.0666667222976685,-1.0666666666511446},{-1.0666666666511446,-1.0666666666675155,-1.0666666701436043,0.0,-1.0666666666656965,-1.066666666418314,-1.066666666666606},{-1.0666666668839753,-1.0666666666670608,-1.066666655242443,-1.0666666666656965,0.0,-1.0666666668839753,-1.066666666666606},{-1.066666666418314,-1.0666666666656965,-1.0666667222976685,-1.066666666418314,-1.0666666666511446,0.0,-1.0666666666656965},{-1.0666666666693345,-1.0666666666666558,-1.0666666666511446,-1.0666666666670608,-1.0666666666670608,-1.0666666666656965,3.552713678800501E-15}} | testLongly(org.apache.commons.math.stat.correlation.CovarianceTest)
+java.lang.AssertionError: covariance matrix
+Expected: Array2DRowRealMatrix{{1.2333921733333332E7,36796.66,3.433302063333333E8,1649102.6666666667,1117681.0666666667,2.3461965733333334E7,16240.933333333332},{36796.66,116.457625,1063604.115416667,6258.66625,3490.25375,73503.0,50.92333333333334},{3.433302063333333E8,1063604.115416667,9.879353659329166E9,5.6124369854166664E7,3.0880428345833335E7,6.852409446E8,470977.9},{1649102.6666666667,6258.66625,5.6124369854166664E7,873223.4291666667,-115378.7625,4462741.533333333,2973.0333333333333},{1117681.0666666667,3490.25375,3.0880428345833335E7,-115378.7625,484304.0958333333,1764098.133333333,1382.4333333333334},{2.3461965733333334E7,73503.0,6.852409446E8,4462741.533333333,1764098.1333333333,4.838734893333333E7,32917.4},{16240.93333333333,50.92333333333334,470977.9,2973.033333333333,1382.433333333333,32917.4,22.66666666666667}}
+Observed: BlockRealMatrix{{1.2333921733333332E7,36797.72666666667,3.433302074E8,1649103.7333333334,1117682.1333333335,2.34619668E7,16242.0},{36797.72666666667,116.45762500000001,1063605.1820833334,6259.732916666668,3491.320416666667,73504.06666666667,51.989999999999995},{3.433302074E8,1063605.1820833334,9.879353659329166E9,5.6124370920833334E7,3.088042941249999E7,6.852409456666667E8,470978.9666666667},{1649103.7333333334,6259.732916666668,5.6124370920833334E7,873223.4291666667,-115377.69583333333,4462742.6,2974.1},{1117682.1333333335,3491.320416666667,3.088042941249999E7,-115377.69583333333,484304.0958333333,1764099.2,1383.5},{2.34619668E7,73504.06666666667,6.852409456666667E8,4462742.6,1764099.2,4.838734893333333E7,32918.46666666667},{16242.0,51.989999999999995,470978.9666666667,2974.1,1383.5,32918.46666666667,22.666666666666668}}
+expected - observed: Array2DRowRealMatrix{{0.0,-1.0666666666656965,-1.0666666626930237,-1.0666666666511446,-1.0666666668839753,-1.066666666418314,-1.0666666666675155},{-1.0666666666656965,-1.4210854715202004E-14,-1.066666666418314,-1.0666666666675155,-1.0666666666670608,-1.0666666666656965,-1.0666666666666558},{-1.0666666626930237,-1.066666666418314,0.0,-1.0666666701436043,-1.066666655242443,-1.0666667222976685,-1.0666666666511446},{-1.0666666666511446,-1.0666666666675155,-1.0666666701436043,0.0,-1.0666666666656965,-1.066666666418314,-1.066666666666606},{-1.0666666668839753,-1.0666666666670608,-1.066666655242443,-1.0666666666656965,0.0,-1.0666666668839753,-1.066666666666606},{-1.066666666418314,-1.0666666666656965,-1.0666667222976685,-1.066666666418314,-1.0666666666511446,0.0,-1.0666666666656965},{-1.0666666666693345,-1.0666666666666558,-1.0666666666511446,-1.0666666666670608,-1.0666666666670608,-1.0666666666656965,3.552713678800501E-15}}
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:265)
+	at org.apache.commons.math.stat.correlation.CovarianceTest.testLongly(CovarianceTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.CovarianceTest#testLongly
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testInsufficientData
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testInsufficientData
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testStdErrorConsistency
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testStdErrorConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testSwissFertility
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testSwissFertility
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testPValueNearZero
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testPValueNearZero
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConstant
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConstant
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testCovarianceConsistency
+* Failure: correlation values
+Expected: BlockRealMatrix{{1.0,0.9708985250610559,0.9835516111796694,0.5024980838759948,0.45730739997648134,0.9603905715943755,0.9713294591921189},{0.9708985250610559,1.0,0.9915891780247821,0.6206333925590966,0.4647441876006749,0.9791634329774977,0.991149190067205},{0.9835516111796694,0.9915891780247821,1.0,0.604260939889558,0.44643679189262647,0.9910900694584774,0.9952734837647847},{0.5024980838759948,0.6206333925590966,0.604260939889558,1.0,-0.17742062950187798,0.686551516365312,0.6682566045621747},{0.45730739997648134,0.4647441876006749,0.44643679189262647,-0.17742062950187798,1.0,0.3644162671890322,0.4172451498349454},{0.9603905715943755,0.9791634329774977,0.9910900694584774,0.686551516365312,0.3644162671890322,1.0,0.9939528462329255},{0.9713294591921189,0.991149190067205,0.9952734837647847,0.6682566045621747,0.4172451498349454,0.9939528462329255,1.0}}
+Observed: BlockRealMatrix{{1.0,0.9709266696017126,0.9835516142353914,0.5024984089000009,0.4573078364109662,0.9603906152572391,0.9713932538482021},{0.9709266696017126,1.0,0.991590172469151,0.6207391673241375,0.46488621943244074,0.9791776424790855,1.0119103173056356},{0.9835516142353914,0.991590172469151,1.0,0.604260951373785,0.44643680731337243,0.9910900710012384,0.9952757378515463},{0.5024984089000009,0.6207391673241375,0.604260951373785,1.0,-0.1774189892635245,0.6865516804621148,0.6684963620640076},{0.4573078364109662,0.46488621943244074,0.44643680731337243,-0.1774189892635245,1.0,0.3644164875343051,0.4175670904901842},{0.9603906152572391,0.9791776424790855,0.9910900710012384,0.6865516804621148,0.3644164875343051,1.0,0.9939850546202622},{0.9713932538482021,1.0119103173056356,0.9952757378515463,0.6684963620640076,0.4175670904901842,0.9939850546202622,1.0}}
+expected - observed: BlockRealMatrix{{0.0,-2.8144540656693806E-5,-3.0557220087601422E-9,-3.2502400604261794E-7,-4.3643448482955094E-7,-4.3662863657978335E-8,-6.379465608319368E-5},{-2.8144540656693806E-5,0.0,-9.94444368962455E-7,-1.0577476504092242E-4,-1.420318317658653E-4,-1.4209501587703066E-5,-0.0207611272384306},{-3.0557220087601422E-9,-9.94444368962455E-7,0.0,-1.1484227013802695E-8,-1.5420745957950288E-8,-1.5427609190155067E-9,-2.254086761577234E-6},{-3.2502400604261794E-7,-1.0577476504092242E-4,-1.1484227013802695E-8,0.0,-1.6402383534730447E-6,-1.6409680281270766E-7,-2.3975750183291566E-4},{-4.3643448482955094E-7,-1.420318317658653E-4,-1.5420745957950288E-8,-1.6402383534730447E-6,0.0,-2.203452729165889E-7,-3.219406552388282E-4},{-4.3662863657978335E-8,-1.4209501587703066E-5,-1.5427609190155067E-9,-1.6409680281270766E-7,-2.203452729165889E-7,0.0,-3.22083873367518E-5},{-6.379465608319368E-5,-0.0207611272384306,-2.254086761577234E-6,-2.3975750183291566E-4,-3.219406552388282E-4,-3.22083873367518E-5,0.0}} | testCovarianceConsistency(org.apache.commons.math.stat.correlation.PearsonsCorrelationTest)
+java.lang.AssertionError: correlation values
+Expected: BlockRealMatrix{{1.0,0.9708985250610559,0.9835516111796694,0.5024980838759948,0.45730739997648134,0.9603905715943755,0.9713294591921189},{0.9708985250610559,1.0,0.9915891780247821,0.6206333925590966,0.4647441876006749,0.9791634329774977,0.991149190067205},{0.9835516111796694,0.9915891780247821,1.0,0.604260939889558,0.44643679189262647,0.9910900694584774,0.9952734837647847},{0.5024980838759948,0.6206333925590966,0.604260939889558,1.0,-0.17742062950187798,0.686551516365312,0.6682566045621747},{0.45730739997648134,0.4647441876006749,0.44643679189262647,-0.17742062950187798,1.0,0.3644162671890322,0.4172451498349454},{0.9603905715943755,0.9791634329774977,0.9910900694584774,0.686551516365312,0.3644162671890322,1.0,0.9939528462329255},{0.9713294591921189,0.991149190067205,0.9952734837647847,0.6682566045621747,0.4172451498349454,0.9939528462329255,1.0}}
+Observed: BlockRealMatrix{{1.0,0.9709266696017126,0.9835516142353914,0.5024984089000009,0.4573078364109662,0.9603906152572391,0.9713932538482021},{0.9709266696017126,1.0,0.991590172469151,0.6207391673241375,0.46488621943244074,0.9791776424790855,1.0119103173056356},{0.9835516142353914,0.991590172469151,1.0,0.604260951373785,0.44643680731337243,0.9910900710012384,0.9952757378515463},{0.5024984089000009,0.6207391673241375,0.604260951373785,1.0,-0.1774189892635245,0.6865516804621148,0.6684963620640076},{0.4573078364109662,0.46488621943244074,0.44643680731337243,-0.1774189892635245,1.0,0.3644164875343051,0.4175670904901842},{0.9603906152572391,0.9791776424790855,0.9910900710012384,0.6865516804621148,0.3644164875343051,1.0,0.9939850546202622},{0.9713932538482021,1.0119103173056356,0.9952757378515463,0.6684963620640076,0.4175670904901842,0.9939850546202622,1.0}}
+expected - observed: BlockRealMatrix{{0.0,-2.8144540656693806E-5,-3.0557220087601422E-9,-3.2502400604261794E-7,-4.3643448482955094E-7,-4.3662863657978335E-8,-6.379465608319368E-5},{-2.8144540656693806E-5,0.0,-9.94444368962455E-7,-1.0577476504092242E-4,-1.420318317658653E-4,-1.4209501587703066E-5,-0.0207611272384306},{-3.0557220087601422E-9,-9.94444368962455E-7,0.0,-1.1484227013802695E-8,-1.5420745957950288E-8,-1.5427609190155067E-9,-2.254086761577234E-6},{-3.2502400604261794E-7,-1.0577476504092242E-4,-1.1484227013802695E-8,0.0,-1.6402383534730447E-6,-1.6409680281270766E-7,-2.3975750183291566E-4},{-4.3643448482955094E-7,-1.420318317658653E-4,-1.5420745957950288E-8,-1.6402383534730447E-6,0.0,-2.203452729165889E-7,-3.219406552388282E-4},{-4.3662863657978335E-8,-1.4209501587703066E-5,-1.5427609190155067E-9,-1.6409680281270766E-7,-2.203452729165889E-7,0.0,-3.22083873367518E-5},{-6.379465608319368E-5,-0.0207611272384306,-2.254086761577234E-6,-2.3975750183291566E-4,-3.219406552388282E-4,-3.22083873367518E-5,0.0}}
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:265)
+	at org.apache.commons.math.stat.correlation.PearsonsCorrelationTest.testCovarianceConsistency(PearsonsCorrelationTest.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testCovarianceConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConsistency
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testConsistency
+* Started org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testLongly
+* Finished org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testLongly
+* Started org.apache.commons.math.stat.inference.TTestTest#testOneSampleTTest
+* Failure: one sample t stat expected:<3.86485535541> but was:<2.318913213245817> | testOneSampleTTest(org.apache.commons.math.stat.inference.TTestTest)
+java.lang.AssertionError: one sample t stat expected:<3.86485535541> but was:<2.318913213245817>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.inference.TTestTest.testOneSampleTTest(TTestTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.inference.TTestTest#testOneSampleTTest
+* Started org.apache.commons.math.stat.inference.TTestTest#testSmallSamples
+* Finished org.apache.commons.math.stat.inference.TTestTest#testSmallSamples
+* Started org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHeterscedastic
+* Finished org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHeterscedastic
+* Started org.apache.commons.math.stat.inference.TTestTest#testOneSampleT
+* Failure: t statistic expected:<-2.81976445346> but was:<-3.6178109968901864> | testOneSampleT(org.apache.commons.math.stat.inference.TTestTest)
+java.lang.AssertionError: t statistic expected:<-2.81976445346> but was:<-3.6178109968901864>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.inference.TTestTest.testOneSampleT(TTestTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.inference.TTestTest#testOneSampleT
+* Started org.apache.commons.math.stat.inference.TTestTest#testPaired
+* Finished org.apache.commons.math.stat.inference.TTestTest#testPaired
+* Started org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHomoscedastic
+* Finished org.apache.commons.math.stat.inference.TTestTest#testTwoSampleTHomoscedastic
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleTTest
+* Failure: one sample t stat expected:<3.86485535541> but was:<2.318913213245817> | testOneSampleTTest(org.apache.commons.math.stat.inference.TestUtilsTest)
+java.lang.AssertionError: one sample t stat expected:<3.86485535541> but was:<2.318913213245817>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testOneSampleTTest(TestUtilsTest.java:279)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleTTest
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareIndependence
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareIndependence
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareZeroCount
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareZeroCount
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testSmallSamples
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testSmallSamples
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHeterscedastic
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquareLargeTestStatistic
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquare
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testChiSquare
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleT
+* Failure: t statistic expected:<-2.81976445346> but was:<-3.6178109968901864> | testOneSampleT(org.apache.commons.math.stat.inference.TestUtilsTest)
+java.lang.AssertionError: t statistic expected:<-2.81976445346> but was:<-3.6178109968901864>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.inference.TestUtilsTest.testOneSampleT(TestUtilsTest.java:206)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testOneSampleT
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testPaired
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testPaired
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testTwoSampleTHomoscedastic
+* Started org.apache.commons.math.stat.inference.TestUtilsTest#testOneWayAnovaUtils
+* Finished org.apache.commons.math.stat.inference.TestUtilsTest#testOneWayAnovaUtils
+* Started org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testProductAndGeometricMean
+* Finished org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testProductAndGeometricMean
+* Started org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testSerialization
+* Failure: mean expected:<2.0> but was:<1.0> | testSerialization(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest)
+java.lang.AssertionError: mean expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testSerialization(ListUnivariateImplTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testStats
+* Failure: mean expected:<2.0> but was:<1.0> | testStats(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest)
+java.lang.AssertionError: mean expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testStats(ListUnivariateImplTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testStats
+* Started org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testN0andN1Conditions
+* Failure: Mean of n = 1 set should be value of single item n1 | testN0andN1Conditions(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest)
+java.lang.AssertionError: Mean of n = 1 set should be value of single item n1
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testN0andN1Conditions(ListUnivariateImplTest.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testSkewAndKurtosis
+* Failure: mean expected:<12.40455> but was:<11.404545454545454> | testSkewAndKurtosis(org.apache.commons.math.stat.descriptive.ListUnivariateImplTest)
+java.lang.AssertionError: mean expected:<12.40455> but was:<11.404545454545454>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.descriptive.ListUnivariateImplTest.testSkewAndKurtosis(ListUnivariateImplTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.ListUnivariateImplTest#testSkewAndKurtosis
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testProductAndGeometricMean
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testProductAndGeometricMean
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testGetSummary
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testGetSummary
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testStats
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testStats
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testCopy
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testNaNContracts
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testNaNContracts
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testN0andN1Conditions
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideMeanWithMathClass
+* Failure: expected:<1.5> but was:<2.5> | testOverrideMeanWithMathClass(org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest)
+java.lang.AssertionError: expected:<1.5> but was:<2.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.SummaryStatisticsTest.testOverrideMeanWithMathClass(SummaryStatisticsTest.java:335)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideMeanWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideGeoMeanWithMathClass
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideGeoMeanWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideVarianceWithMathClass
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideVarianceWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSetterInjection
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSetterInjection
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSetterIllegalState
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testSetterIllegalState
+* Started org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testPercentileSetter
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testPercentileSetter
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#test20090720
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#test20090720
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testCopy
+* Failure: expected:<2.0> but was:<1.0> | testCopy(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testCopy(DescriptiveStatisticsTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testToString
+* Failure: expected:<... 1.0
+max: 3.0
+mean: [2.0
+std dev: 1.0
+median: 2.0
+skewness: 0.0]
+kurtosis: NaN
+> but was:<... 1.0
+max: 3.0
+mean: [1.0
+std dev: 1.0
+median: 2.0
+skewness: 13.5]
+kurtosis: NaN
+> | testToString(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+org.junit.ComparisonFailure: expected:<... 1.0
+max: 3.0
+mean: [2.0
+std dev: 1.0
+median: 2.0
+skewness: 0.0]
+kurtosis: NaN
+> but was:<... 1.0
+max: 3.0
+mean: [1.0
+std dev: 1.0
+median: 2.0
+skewness: 13.5]
+kurtosis: NaN
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testToString(DescriptiveStatisticsTest.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testToString
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testShuffledStatistics
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testShuffledStatistics
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testSetterInjection
+* Failure: expected:<2.0> but was:<1.0> | testSetterInjection(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testSetterInjection(DescriptiveStatisticsTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testSetterInjection
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testRemoval
+* Failure: null | testRemoval(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.checkremoval(DescriptiveStatisticsTest.java:259)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testRemoval(DescriptiveStatisticsTest.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testRemoval
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testSummaryConsistency
+* Failure: expected:<-1.0> but was:<0.0> | testSummaryConsistency(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<-1.0> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:55)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testSummaryConsistency(DescriptiveStatisticsTest.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testSummaryConsistency
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testWindowSize
+* Failure: expected:<50.5> but was:<49.5> | testWindowSize(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<50.5> but was:<49.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testWindowSize(DescriptiveStatisticsTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testWindowSize
+* Started org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testGetValues
+* Failure: expected:<50.5> but was:<49.5> | testGetValues(org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<50.5> but was:<49.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testGetValues(DescriptiveStatisticsTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest#testGetValues
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testPercentileSetter
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testPercentileSetter
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#test20090720
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#test20090720
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testCopy
+* Failure: expected:<2.0> but was:<1.0> | testCopy(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testCopy(DescriptiveStatisticsTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testToString
+* Failure: expected:<... 1.0
+max: 3.0
+mean: [2.0
+std dev: 1.0
+median: 2.0
+skewness: 0.0]
+kurtosis: NaN
+> but was:<... 1.0
+max: 3.0
+mean: [1.0
+std dev: 1.0
+median: 2.0
+skewness: 13.5]
+kurtosis: NaN
+> | testToString(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+org.junit.ComparisonFailure: expected:<... 1.0
+max: 3.0
+mean: [2.0
+std dev: 1.0
+median: 2.0
+skewness: 0.0]
+kurtosis: NaN
+> but was:<... 1.0
+max: 3.0
+mean: [1.0
+std dev: 1.0
+median: 2.0
+skewness: 13.5]
+kurtosis: NaN
+>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testToString(DescriptiveStatisticsTest.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testToString
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testShuffledStatistics
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testShuffledStatistics
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testSetterInjection
+* Failure: expected:<2.0> but was:<1.0> | testSetterInjection(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testSetterInjection(DescriptiveStatisticsTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testSetterInjection
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testRemoval
+* Failure: null | testRemoval(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.checkremoval(DescriptiveStatisticsTest.java:259)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testRemoval(DescriptiveStatisticsTest.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testRemoval
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testSummaryConsistency
+* Failure: expected:<-1.0> but was:<0.0> | testSummaryConsistency(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<-1.0> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:55)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testSummaryConsistency(DescriptiveStatisticsTest.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testSummaryConsistency
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testWindowSize
+* Failure: expected:<50.5> but was:<49.5> | testWindowSize(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<50.5> but was:<49.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testWindowSize(DescriptiveStatisticsTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testWindowSize
+* Started org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testGetValues
+* Failure: expected:<50.5> but was:<49.5> | testGetValues(org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest)
+java.lang.AssertionError: expected:<50.5> but was:<49.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.DescriptiveStatisticsTest.testGetValues(DescriptiveStatisticsTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SynchronizedDescriptiveStatisticsTest#testGetValues
+* Started org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregation
+* Finished org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregation
+* Started org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateSpecialValues
+* Finished org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateSpecialValues
+* Started org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregationConsistency
+* Finished org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregationConsistency
+* Started org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregate
+* Finished org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregate
+* Started org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateDegenerate
+* Finished org.apache.commons.math.stat.descriptive.AggregateSummaryStatisticsTest#testAggregateDegenerate
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testProductAndGeometricMean
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testProductAndGeometricMean
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testGetSummary
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testGetSummary
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testStats
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testStats
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testCopy
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testNaNContracts
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testNaNContracts
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testN0andN1Conditions
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideMeanWithMathClass
+* Failure: expected:<1.5> but was:<2.5> | testOverrideMeanWithMathClass(org.apache.commons.math.stat.descriptive.SummaryStatisticsTest)
+java.lang.AssertionError: expected:<1.5> but was:<2.5>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.SummaryStatisticsTest.testOverrideMeanWithMathClass(SummaryStatisticsTest.java:335)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideMeanWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideGeoMeanWithMathClass
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideGeoMeanWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideVarianceWithMathClass
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideVarianceWithMathClass
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSetterInjection
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSetterInjection
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSetterIllegalState
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testSetterIllegalState
+* Started org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testProductAndGeometricMean
+* Finished org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testProductAndGeometricMean
+* Started org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testStats
+* Failure: mean expected:<2.0> but was:<1.0> | testStats(org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest)
+java.lang.AssertionError: mean expected:<2.0> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest.testStats(MixedListUnivariateImplTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testStats
+* Started org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testN0andN1Conditions
+* Failure: Mean of n = 1 set should be value of single item n1, instead it is 0.0 | testN0andN1Conditions(org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest)
+java.lang.AssertionError: Mean of n = 1 set should be value of single item n1, instead it is 0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest.testN0andN1Conditions(MixedListUnivariateImplTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testN0andN1Conditions
+* Started org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testSkewAndKurtosis
+* Failure: mean expected:<12.40455> but was:<11.404545471884987> | testSkewAndKurtosis(org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest)
+java.lang.AssertionError: mean expected:<12.40455> but was:<11.404545471884987>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest.testSkewAndKurtosis(MixedListUnivariateImplTest.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.MixedListUnivariateImplTest#testSkewAndKurtosis
+* Started org.apache.commons.math.stat.descriptive.moment.InteractionTest#testInteraction
+* Finished org.apache.commons.math.stat.descriptive.moment.InteractionTest#testInteraction
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testNaN
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testNaN
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testWeightedVariance
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testWeightedVariance
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testPopulation
+* Failure: expected:<61.36234375000001> but was:<60.36234375000001> | testPopulation(org.apache.commons.math.stat.descriptive.moment.VarianceTest)
+java.lang.AssertionError: expected:<61.36234375000001> but was:<60.36234375000001>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.moment.VarianceTest.testPopulation(VarianceTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testPopulation
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testMomentSmallSamples
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testMomentSmallSamples
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testIncrementation
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testIncrementation
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testCopyConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testCopyConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testSerial
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testSerial
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testCopy
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluation
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluation
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluateArraySegment
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluateArraySegment
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testWeightedConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testWeightedConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluateArraySegmentWeighted
+* Finished org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluateArraySegmentWeighted
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testInsufficientData
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testInsufficientData
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testVarianceDecompNonMeanCutoff
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testVarianceDecompNonMeanCutoff
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testNoVariance
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testNoVariance
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSingleDown
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSingleDown
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testNonMeanCutoffs
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testNonMeanCutoffs
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSingleUp
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSingleUp
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testPopulation
+* Failure: expected:<19.556> but was:<14.000000000000004> | testPopulation(org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest)
+java.lang.AssertionError: expected:<19.556> but was:<14.000000000000004>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest.testPopulation(SemiVarianceTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testPopulation
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testVarianceDecompMeanCutoff
+* Failure: expected:<62.749999999999986> but was:<63.874999999999986> | testVarianceDecompMeanCutoff(org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest)
+java.lang.AssertionError: expected:<62.749999999999986> but was:<63.874999999999986>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest.testVarianceDecompMeanCutoff(SemiVarianceTest.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testVarianceDecompMeanCutoff
+* Started org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSample
+* Failure: expected:<62.749999999999986> but was:<63.874999999999986> | testSample(org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest)
+java.lang.AssertionError: expected:<62.749999999999986> but was:<63.874999999999986>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest.testSample(SemiVarianceTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.moment.SemiVarianceTest#testSample
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testNaN
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testNaN
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testMomentSmallSamples
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testMomentSmallSamples
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testIncrementation
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testIncrementation
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testCopyConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testCopyConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testSerial
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testSerial
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testCopy
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluation
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluation
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluateArraySegment
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluateArraySegment
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testWeightedConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testWeightedConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluateArraySegmentWeighted
+* Finished org.apache.commons.math.stat.descriptive.moment.KurtosisTest#testEvaluateArraySegmentWeighted
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testNaN
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testNaN
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testPopulation
+* Failure: expected:<7.83341201201622> but was:<7.769320674936774> | testPopulation(org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest)
+java.lang.AssertionError: expected:<7.83341201201622> but was:<7.769320674936774>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.junit.Assert.assertEquals(Assert.java:592)
+	at org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest.testPopulation(StandardDeviationTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testPopulation
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testMomentSmallSamples
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testMomentSmallSamples
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testSerialization
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testSerialization
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testIncrementation
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testIncrementation
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEqualsAndHashCode
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testCopyConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testCopyConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testSerial
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testSerial
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testCopy
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testCopy
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluation
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluation
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluateArraySegment
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluateArraySegment
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testWeightedConsistency
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testWeightedConsistency
+* Started org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluateArraySegmentWeighted
+* Finished org.apache.commons.math.stat.descriptive.moment.StandardDeviationTest#testEvaluateArraySegmentWeighted
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testGLSEfficiency
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testGLSEfficiency
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullYSampleData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataThatIsNotSquare
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#notEnoughData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testGLSOLSConsistency
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testGLSOLSConsistency
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddNullCovarianceData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddCovarianceDataWithSampleSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testYVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testYVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#cannotAddXSampleData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSample2
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSample2
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSample
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSample
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleNullData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleNullData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testXSampleDataNull
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testXSampleDataNull
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Started org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testYSampleDataNull
+* Finished org.apache.commons.math.stat.regression.GLSMultipleLinearRegressionTest#testYSampleDataNull
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testHat
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testHat
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testSwissFertility
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleDataXNull
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleDataXNull
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleDataYNull
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleDataYNull
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testYVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testYVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#cannotAddSampleDataWithSizeMismatch
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testPerfectFit
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler1
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler1
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler2
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler2
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler3
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler3
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler4
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testWampler4
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Failure: expected:<836424.0555061132> but was:<836424.0555061133> | testLongly(org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest)
+java.lang.AssertionError: expected:<836424.0555061132> but was:<836424.0555061133>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:55)
+	at org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest.checkVarianceConsistency(OLSMultipleLinearRegressionTest.java:465)
+	at org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest.testLongly(OLSMultipleLinearRegressionTest.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testLongly
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSample2
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSample2
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateResiduals
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressandVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleInsufficientData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSample
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSample
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParameters
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#canEstimateRegressionParametersVariance
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleNullData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleNullData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testXSampleDataNull
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testXSampleDataNull
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testNewSampleInvalidData
+* Started org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testYSampleDataNull
+* Finished org.apache.commons.math.stat.regression.OLSMultipleLinearRegressionTest#testYSampleDataNull
+* Started org.apache.commons.math.stat.data.LotteryTest#testCertifiedValues
+* Failure: descriptive value for mean is incorrect. expected:<517.9587155963302> but was:<518.95871559633> | testCertifiedValues(org.apache.commons.math.stat.data.LotteryTest)
+java.lang.AssertionError: descriptive value for mean is incorrect. expected:<517.9587155963302> but was:<518.95871559633>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:68)
+	at org.apache.commons.math.stat.data.CertifiedDataAbstractTest.testCertifiedValues(CertifiedDataAbstractTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.data.LotteryTest#testCertifiedValues
+* Started org.apache.commons.math.stat.data.LewTest#testCertifiedValues
+* Failure: descriptive value for mean is incorrect. expected:<-178.435> but was:<-177.435> | testCertifiedValues(org.apache.commons.math.stat.data.LewTest)
+java.lang.AssertionError: descriptive value for mean is incorrect. expected:<-178.435> but was:<-177.435>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.TestUtils.assertEquals(TestUtils.java:68)
+	at org.apache.commons.math.stat.data.CertifiedDataAbstractTest.testCertifiedValues(CertifiedDataAbstractTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.data.LewTest#testCertifiedValues
+* Started org.apache.commons.math.stat.CertifiedDataTest#testSummaryStatistics
+* Finished org.apache.commons.math.stat.CertifiedDataTest#testSummaryStatistics
+* Started org.apache.commons.math.stat.CertifiedDataTest#testDescriptiveStatistics
+* Failure: PiDigits: std expected:<2.86733906028871> but was:<2.867339060288686> | testDescriptiveStatistics(org.apache.commons.math.stat.CertifiedDataTest)
+java.lang.AssertionError: PiDigits: std expected:<2.86733906028871> but was:<2.867339060288686>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:494)
+	at org.apache.commons.math.stat.CertifiedDataTest.testDescriptiveStatistics(CertifiedDataTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.math.stat.CertifiedDataTest#testDescriptiveStatistics
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testAddElements
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testAddElements
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testAdd1000
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testAdd1000
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testSubstitute
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testSubstitute
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testConstructors
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testConstructors
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testAddElementRolling
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testAddElementRolling
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testWithInitialCapacityAndExpansionFactor
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testWithInitialCapacityAndExpansionFactor
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testSetNumberOfElements
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testSetNumberOfElements
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testWithInitialCapacity
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testWithInitialCapacity
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testDiscard
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testDiscard
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testEqualsAndHashCode
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testEqualsAndHashCode
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testMutators
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testMutators
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testSetElementArbitraryExpansion
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testSetElementArbitraryExpansion
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testGetValues
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testGetValues
+* Started org.apache.commons.math.util.ResizableDoubleArrayTest#testMinMax
+* Finished org.apache.commons.math.util.ResizableDoubleArrayTest#testMinMax
+* Started org.apache.commons.math.util.FastMathTest#testLogSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testLogSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testDoubleNextAfterSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testDoubleNextAfterSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testIndicatorDouble
+* Finished org.apache.commons.math.util.FastMathTest#testIndicatorDouble
+* Started org.apache.commons.math.util.FastMathTest#testAtan2SpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testAtan2SpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testCbrtAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testCbrtAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testAtan2
+* Finished org.apache.commons.math.util.FastMathTest#testAtan2
+* Started org.apache.commons.math.util.FastMathTest#checkMissingFastMathClasses
+* Finished org.apache.commons.math.util.FastMathTest#checkMissingFastMathClasses
+* Started org.apache.commons.math.util.FastMathTest#testLogAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testLogAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testLog1pSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testLog1pSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testAcosAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testAcosAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testMinMaxDouble
+* Finished org.apache.commons.math.util.FastMathTest#testMinMaxDouble
+* Started org.apache.commons.math.util.FastMathTest#testAcosSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testAcosSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testPowSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testPowSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testDoubleScalbSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testDoubleScalbSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testTanhAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testTanhAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testToRadians
+* Finished org.apache.commons.math.util.FastMathTest#testToRadians
+* Started org.apache.commons.math.util.FastMathTest#testLogWithBase
+* Finished org.apache.commons.math.util.FastMathTest#testLogWithBase
+* Started org.apache.commons.math.util.FastMathTest#testConstants
+* Finished org.apache.commons.math.util.FastMathTest#testConstants
+* Started org.apache.commons.math.util.FastMathTest#testTanAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testTanAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testFloatScalbSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testFloatScalbSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testToDegrees
+* Finished org.apache.commons.math.util.FastMathTest#testToDegrees
+* Started org.apache.commons.math.util.FastMathTest#testSignumFloat
+* Finished org.apache.commons.math.util.FastMathTest#testSignumFloat
+* Started org.apache.commons.math.util.FastMathTest#testSinAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testSinAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testAtan2Accuracy
+* Finished org.apache.commons.math.util.FastMathTest#testAtan2Accuracy
+* Started org.apache.commons.math.util.FastMathTest#testFloatNextAfterSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testFloatNextAfterSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testExpm1Accuracy
+* Finished org.apache.commons.math.util.FastMathTest#testExpm1Accuracy
+* Started org.apache.commons.math.util.FastMathTest#testSignumDouble
+* Finished org.apache.commons.math.util.FastMathTest#testSignumDouble
+* Started org.apache.commons.math.util.FastMathTest#testMinMaxFloat
+* Finished org.apache.commons.math.util.FastMathTest#testMinMaxFloat
+* Started org.apache.commons.math.util.FastMathTest#testHyperbolic
+* Finished org.apache.commons.math.util.FastMathTest#testHyperbolic
+* Started org.apache.commons.math.util.FastMathTest#testCoshAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testCoshAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testIndicatorFloat
+* Finished org.apache.commons.math.util.FastMathTest#testIndicatorFloat
+* Started org.apache.commons.math.util.FastMathTest#testPowAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testPowAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testExpSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testExpSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testLog10Accuracy
+* Finished org.apache.commons.math.util.FastMathTest#testLog10Accuracy
+* Started org.apache.commons.math.util.FastMathTest#testAtanAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testAtanAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testNextAfter
+* Finished org.apache.commons.math.util.FastMathTest#testNextAfter
+* Started org.apache.commons.math.util.FastMathTest#testLog1pAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testLog1pAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testHyperbolicInverses
+* Finished org.apache.commons.math.util.FastMathTest#testHyperbolicInverses
+* Ignored: org.apache.commons.math.util.FastMathTest#checkExtraFastMathClasses
+* Started org.apache.commons.math.util.FastMathTest#testAsinSpecialCases
+* Finished org.apache.commons.math.util.FastMathTest#testAsinSpecialCases
+* Started org.apache.commons.math.util.FastMathTest#testAsinAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testAsinAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testCosAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testCosAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testExpAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testExpAccuracy
+* Started org.apache.commons.math.util.FastMathTest#testSinhAccuracy
+* Finished org.apache.commons.math.util.FastMathTest#testSinhAccuracy
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testLowAccuracyExternalDifferentiation
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testLowAccuracyExternalDifferentiation
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testHighAccuracyExternalDifferentiation
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testHighAccuracyExternalDifferentiation
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testAnalyticalDifferentiation
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testAnalyticalDifferentiation
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testInternalDifferentiation
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testInternalDifferentiation
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testParameterizable
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testParameterizable
+* Started org.apache.commons.math.ode.JacobianMatricesTest#testFinalResult
+* Finished org.apache.commons.math.ode.JacobianMatricesTest#testFinalResult
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/math/1faults/v_12/matrix'
+* Writing spectra to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/math/1faults/v_12/spectra'
+* Metrics
+* Computation finished
+[INFO] End: Wed Sep 19 01:58:39 PDT 2018
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+
+DONE!
