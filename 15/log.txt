@@ -1,0 +1,140 @@
+[DEBUG] PID: Lang
+[DEBUG] VID: 15
+[DEBUG] DATA_DIR: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/15
+[DEBUG] TOOL: developer
+[DEBUG] TESTS_DIR: 
+[DEBUG] TMP_DIR: /tmp/yxb/gzoltar_5372_Lang-15
+[DEBUG] DIR_PROJECT: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang
+[DEBUG] DIR_LOADED_CLASSES: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/loaded_classes
+[DEBUG] DIR_RELEVANT_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/relevant_tests
+[DEBUG] DIR_TRIGGER_TESTS: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/trigger_tests
+[DEBUG] JAVA_VERSION:
+Picked up _JAVA_OPTIONS: -XX:MaxHeapSize=1024m -Xmx4096m
+java version "1.7.0_80"
+Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
+[INFO] Checking out Lang-15 to /tmp/yxb/gzoltar_5372_Lang-15
+Check out 8185a9e6 to /tmp/yxb/gzoltar_5372_Lang-15........................ OK
+Init local repository...................................................... OK
+Tag post-fix revision...................................................... OK
+Initialize fixed program version........................................... OK
+Apply patch................................................................ OK
+Initialize buggy program version........................................... OK
+Diff 8185a9e6:76912e0d..................................................... OK
+Apply patch................................................................ OK
+Tag pre-fix revision....................................................... OK
+Check out program version: Lang-15b........................................ OK
+[DEBUG] LOADED_CLASSES: org.apache.commons.lang3.ClassUtils:org.apache.commons.lang3.text.translate.UnicodeEscaper:org.apache.commons.lang3.text.translate.NumericEntityUnescaper:org.apache.commons.lang3.text.translate.CharSequenceTranslator:org.apache.commons.lang3.reflect.TypeUtils:org.apache.commons.lang3.text.translate.EntityArrays:org.apache.commons.lang3.text.translate.OctalUnescaper:org.apache.commons.lang3.SystemUtils:org.apache.commons.lang3.text.translate.CodePointTranslator:org.apache.commons.lang3.ArrayUtils:org.apache.commons.lang3.text.translate.LookupTranslator:org.apache.commons.lang3.text.translate.UnicodeUnescaper:org.apache.commons.lang3.JavaVersion:org.apache.commons.lang3.text.translate.AggregateTranslator:org.apache.commons.lang3.StringEscapeUtils:
+[DEBUG] LOADED_SUB_CLASSES: org.apache.commons.lang3.ClassUtils$*:org.apache.commons.lang3.text.translate.UnicodeEscaper$*:org.apache.commons.lang3.text.translate.NumericEntityUnescaper$*:org.apache.commons.lang3.text.translate.CharSequenceTranslator$*:org.apache.commons.lang3.reflect.TypeUtils$*:org.apache.commons.lang3.text.translate.EntityArrays$*:org.apache.commons.lang3.text.translate.OctalUnescaper$*:org.apache.commons.lang3.SystemUtils$*:org.apache.commons.lang3.text.translate.CodePointTranslator$*:org.apache.commons.lang3.ArrayUtils$*:org.apache.commons.lang3.text.translate.LookupTranslator$*:org.apache.commons.lang3.text.translate.UnicodeUnescaper$*:org.apache.commons.lang3.JavaVersion$*:org.apache.commons.lang3.text.translate.AggregateTranslator$*:org.apache.commons.lang3.StringEscapeUtils$*:
+[DEBUG] RELEVANT_TESTS: org.apache.commons.lang3.reflect.TypeUtilsTest:
+[DEBUG] TRIGGER_TESTS_FILE: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/Lang/trigger_tests/15
+[DEBUG] CP: /home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j//framework/projects/lib/junit-4.11.jar:/tmp/yxb/gzoltar_5372_Lang-15/target/classes:/tmp/yxb/gzoltar_5372_Lang-15/target/tests:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/lib/junit-4.11.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/easymock.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/commons-io.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/cglib.jar:/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/defects4j/framework/projects/Lang/lib/asm.jar
+[INFO] Compiling Lang-15
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+[INFO] Running GZoltar
+[INFO] Start: Sun Aug 25 21:21:37 PDT 2019
+   ____ _____     _ _               
+  / ___|__  /___ | | |_ __ _ _ __   
+ | |  _  / // _ \| | __/ _` | '__| 
+ | |_| |/ /| (_) | | || (_| | |     
+  \____/____\___/|_|\__\__,_|_| 
+
+* Preparing classpath
+* Collecting classes under test
+* Collecting test cases
+* Performing analysis
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetTypeArguments
+* Failure: expected:<2> but was:<0> | testGetTypeArguments(org.apache.commons.lang3.reflect.TypeUtilsTest)
+java.lang.AssertionError: expected:<2> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at org.apache.commons.lang3.reflect.TypeUtilsTest.testGetTypeArguments(TypeUtilsTest.java:505)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetTypeArguments
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsInstance
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsInstance
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsAssignable
+* Failure: type class org.apache.commons.lang3.reflect.TypeUtilsTest$Thing not assignable to org.apache.commons.lang3.reflect.TypeUtilsTest.org.apache.commons.lang3.reflect.TypeUtilsTest$This<java.lang.String, java.lang.String>! | testIsAssignable(org.apache.commons.lang3.reflect.TypeUtilsTest)
+java.lang.AssertionError: type class org.apache.commons.lang3.reflect.TypeUtilsTest$Thing not assignable to org.apache.commons.lang3.reflect.TypeUtilsTest.org.apache.commons.lang3.reflect.TypeUtilsTest$This<java.lang.String, java.lang.String>!
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(TypeUtilsTest.java:344)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at com.gzoltar.lib.instrumentation.testing.junit.a.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsAssignable
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetPrimitiveArrayComponentType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetPrimitiveArrayComponentType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testTypesSatisfyVariables
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testTypesSatisfyVariables
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayTypeClasses
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayTypeClasses
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testDetermineTypeVariableAssignments
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testDetermineTypeVariableAssignments
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetRawType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetRawType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testGetArrayComponentType
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testGetArrayComponentType
+* Started org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayGenericTypes
+* Finished org.apache.commons.lang3.reflect.TypeUtilsTest#testIsArrayGenericTypes
+* Filtering test cases that do not cover any component
+* Sending data to master
+* Closing connection with client
+* Performing fault localization
+* Running Ochiai
+* Writing coverage matrix to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/15/matrix'
+* Writing spectra to '/home/yxb/Documents/rjust-fault-localization-data-f36d7eea9a9c/gzoltar/gzoltars/Lang/15/spectra'
+* Metrics
+* Computation finished
+[INFO] End: Sun Aug 25 21:21:40 PDT 2019
+[DEBUG] MATRIX OK
+[DEBUG] SPECTRA OK
+
+DONE!
