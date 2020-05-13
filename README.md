@@ -1,7 +1,7 @@
 
 TRGA
 ==========
-This is a demo of TRGA which contains the source code of TRGA and corresponding integrated fault localization techniques (Barinel, Ochiai, Dstar, Mseer, FLC (also called J2 in the source code file)), further, all faulty versions and their corresponding execution files of program Mockito have been given for better understanding.
+This is a demo of TRGA which contains the source code of TRGA and corresponding integrated fault localization techniques (Barinel, Ochiai, Dstar, Mseer, FLC (also called J2 in the source code file)), all faulty versions and their corresponding execution files of program Mockito have been given for better understanding. Furthr, all seed faults of benchmark programs are given in the Benchmark folder for reference.
 
 Introduction
 ===
